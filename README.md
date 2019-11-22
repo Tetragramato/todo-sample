@@ -1,3 +1,4 @@
+[![CircleCI](https://circleci.com/gh/Tetragramato/todo-sample/tree/master.svg?style=shield)](https://circleci.com/gh/Tetragramato/todo-sample/tree/master)
 # Simple Todo Sample
 
 This Todo Sample use `Spring Boot Starter Web`, and is fully tested (UT/IT).
