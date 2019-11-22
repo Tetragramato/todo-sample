@@ -72,4 +72,16 @@ public class ITTodoControllerTest {
                     .andExpect(jsonPath("$.name").exists())
                     .andExpect(jsonPath("$.content").exists());
     }
+
+    @Test
+    public void getTodoByBadId() throws Exception {
+        //Given
+        UUID uuid = UUID.randomUUID();
+        when(todoRepository.getTodoById(uuid)).thenReturn(Optional.empty());
+
+        //When
+        this.mockMvc.perform(get("/todos/"+uuid))
+                    .andDo(print())
+                    .andExpect(status().isNotFound());
+    }
 }
