@@ -15,12 +15,12 @@ You can build the projet :
 ./gradlew clean build
 ```
 
-Since the build is a fat jar (with the ShadowJar gradle plugin), you can launch the application as follow :
+You can launch the application as follow :
 
 ```bash
 cd build/libs
 
-java -jar todo-sample-0.0.1-SNAPSHOT-all.jar
+java -jar todo-sample-0.0.1-SNAPSHOT.jar
 ```
 
 Or for more convenience, just run the application in your IDE :)
