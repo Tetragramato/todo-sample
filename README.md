@@ -1,4 +1,4 @@
-[![CircleCI](https://circleci.com/gh/Tetragramato/todo-sample/tree/master.svg?style=shield)](https://circleci.com/gh/Tetragramato/todo-sample/tree/master)
+[![CircleCI](https://circleci.com/gh/Tetragramato/todo-sample/tree/kotlin.svg?style=shield)](https://circleci.com/gh/Tetragramato/todo-sample/tree/kotlin)
 # Simple Todo Sample in Kotlin
 
 This Todo Sample use `Spring Boot Starter Web`, and is fully tested (UT/IT).
